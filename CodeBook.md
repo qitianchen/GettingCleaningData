@@ -1,7 +1,7 @@
 ## Data Dictionary
 Raw data "Human Activity Recognition Using Smartphones Dataset", from project http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Activity        1
+#Activity        1
     Activity Type
     1 WALKING
     2 WALKING_UPSTAIRS
@@ -10,11 +10,11 @@ Activity        1
     5 STANDING
     6 LAYING
 
-Subject         2
+#Subject         2
     Subject ID, 30 subjects in the experiment
     1, 2, ..., 30
 
-Feature         3
+#Feature         3
     Feature info
     1 tBodyAcc-mean()-X
     2 tBodyAcc-mean()-Y
@@ -579,5 +579,5 @@ Feature         3
     561 angle(Z,gravityMean)
 
 
-Value
+#Value
     Value given a set of identifiers of Activity, Subject and Feature
