@@ -25,4 +25,4 @@ The dataset variables are named by Activity, Subject, and feature IDs.
 2. Iterating through each individual group, compute and averages for the variables. The activity and subject are also returned in the results.
 3. The results are transformed into a data frame, with column names by group ID (activity and subject), row names by features, activity and subject. 
 4. The data frame is transposed.
-5. The second data frame is created by meshing the previous transposed data frame. The mesh routine uses activity and subject as identifiers and the features are measurement variables.
+5. The second data frame is created by melting the previous transposed data frame. The melting routine uses activity and subject as identifiers and the features are measurement variables.
