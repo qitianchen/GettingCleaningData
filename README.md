@@ -21,9 +21,8 @@ Iterating through the activity values and match the activity ID to activity name
 The dataset variables are named by Activity, Subject, and feature IDs.
 
 ###Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-#### The dataset is split into groups identified by activity and subject jointly.
-#### Iterating through each individual group, compute and averages for the variables. The activity and subject are also returned in the results.
-#### The results are transformed into a data frame, with column names by group ID (activity and subject), row names by features, activity and subject. 
-#### The data frame is transposed.
-#### The second data frame is created by meshing the previous transposed data frame. The mesh routine uses activity and subject as identifiers and the features are measurement variables.
-#### Transform the activity to id.
+1. The dataset is split into groups identified by activity and subject jointly.
+2. Iterating through each individual group, compute and averages for the variables. The activity and subject are also returned in the results.
+3. The results are transformed into a data frame, with column names by group ID (activity and subject), row names by features, activity and subject. 
+4. The data frame is transposed.
+5. The second data frame is created by meshing the previous transposed data frame. The mesh routine uses activity and subject as identifiers and the features are measurement variables.
